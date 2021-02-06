@@ -3,6 +3,37 @@
   "version": "0.0.1",
   "main": "dist/index.js",
   "license": "MIT",
+  "author": {
+    "name": "Ben Allfree",
+    "url": "http://github.com/benallfree"
+  },
+  "description": "Super fast promisified geo queries.",
+  "keywords": [
+    "promise",
+    "geohash",
+    "proximity",
+    "nearby",
+    "locations",
+    "spatial index",
+    "2D spatial index",
+    "spatial",
+    "index",
+    "redis",
+    "geolocation",
+    "geoproximity",
+    "radius",
+    "redis geo",
+    "geo redis",
+    "geoadd",
+    "geopos",
+    "geodist",
+    "georadius",
+    "georadiusbymember",
+    "geolib"
+  ],
+  "repository": {
+    "url": "https://github.com/benallfree/georedis-promised"
+  },
   "scripts": {
     "clean": "rimraf dist",
     "build": "tsc",
